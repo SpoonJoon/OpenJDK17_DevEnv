@@ -16,6 +16,6 @@ RUN apt-get update && apt-get install -y \
   file
 
 # Clone the OpenJDK 17
-RUN git clone https://github.com/openjdk/jdk17u/ /opt/openjdk
+RUN git clone https://github.com/SpoonJoon/jdk17u.git /opt/openjdk
 
 WORKDIR /opt/openjdk
